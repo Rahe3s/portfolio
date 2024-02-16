@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6bb2d42c.css",
+    "main.js": "/portfolio/static/js/main.a639498e.js",
+    "static/media/netflix-clone.png": "/portfolio/static/media/netflix-clone.e75c2d8bd956c3db0004.png",
+    "static/media/web-scrape.jpeg": "/portfolio/static/media/web-scrape.e9f58e165d3427c5d1bf.jpeg",
+    "static/media/rahees.pdf": "/portfolio/static/media/rahees.958b4e1d0b7c4c1a07ed.pdf",
+    "static/media/home-bg.png": "/portfolio/static/media/home-bg.4014c515eb1688dbb4c1.png",
+    "static/media/Dr-booking.png": "/portfolio/static/media/Dr-booking.0a0714c9a07670161f84.png",
+    "static/media/todo-app.png": "/portfolio/static/media/todo-app.ea72e01007300bae0c76.png",
+    "index.html": "/portfolio/index.html",
+    "main.6bb2d42c.css.map": "/portfolio/static/css/main.6bb2d42c.css.map",
+    "main.a639498e.js.map": "/portfolio/static/js/main.a639498e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bb2d42c.css",
+    "static/js/main.a639498e.js"
+  ]
+}
