@@ -1,0 +1,120 @@
+.contact{
+    width: 100%;
+    height: auto;
+    background-color:rgba(1,1,1,255); 
+    font-family: Aclonica;     
+
+}
+.contact_header{
+    color: white;   
+    width: 100%;
+    height:auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.contact_header h1{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contact_wrapper{
+    width: 100%;
+    
+    display: flex;
+}
+.contact_left{
+    width: 50%;
+    height: auto;
+    color: white;
+    display: grid;
+    padding: 120px 0px 0px 0px;
+}
+.contact_left p{
+    color: #00a3d5;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    margin: 0px 150px 0px 150px;
+
+}
+.contact_info{
+    margin: 0px 150px 30px 150px;
+    height: auto;
+    padding: 15px;
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.contact_icon{
+    
+    padding: 10px;
+    border: solid white;
+    color:  #00a3d5;
+    border-radius: 50%;
+}
+.contact_right{
+    width: 50%;
+    padding-top: 120px;
+    
+}
+
+.contact_form{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.contact_form input,textarea{
+    width: auto;
+    font-size: 22px;
+    padding: 15px;
+    color: white;
+    background-color: rgba(1,1,1,255);
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+.contact_form textarea{
+    min-height: 250px;
+    resize: vertical;
+}
+.send{
+    background-color: #00a3d5;
+    color: white;
+    font-size: 22px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left:  auto;
+    
+}
+.send:hover{
+    transform: scale(1.2);
+}
+
+@media(max-width:576px){
+    .contact_wrapper{
+        flex-direction: column;
+    
+    }
+    .contact_left{
+        padding: 30px 0px 0px 0px;
+        width: 100%;
+        justify-content: center;
+    }
+    .contact_left p{
+        margin-bottom: 30px;
+    }
+    .contact_right{
+        display: grid;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+
+}

@@ -1,0 +1,100 @@
+.about{
+        width: 100%;
+        height: auto;
+        background-color:rgba(1,1,1,255); 
+        font-family: Aclonica;     
+
+}
+.header{
+    color: white;   
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header h1{
+    font-size: 50px;
+}
+.header h1 span{
+    color: #00a3d5;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.about-intro{
+    width:50%;
+    height: auto; 
+}
+.about-intro h2{
+    color:white;
+    padding: 0px 100px 0px 100px;  
+    font-family: Aclonica;
+
+}
+.about-intro p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px 100px 0px 100px;
+    line-height: 1.5;
+    font-size: 22px;
+
+}
+.download_button{
+    margin: 10px 100px;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    color: white;
+    border: solid aqua;
+    border-radius: 35px;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+    transition: ease-in-out 0.3s;
+
+}
+.download-icon{
+    color: #00a3d5;
+   
+}
+.download_button:hover{
+    background-color: #00a3d5;
+    .download-icon{
+        color: white;
+
+    }
+}
+
+
+.skills{
+    color: white;
+    padding: 50px 100px;
+    width: 50%;
+    height: auto;
+}
+
+@media(max-width:576px){
+    .content{
+        flex-direction: column;
+        
+    }
+    .about-intro{
+        width: auto;
+    }
+    .about-intro h2{
+        padding: 15px 30px;
+    }
+    .about-intro p{
+        padding: 15px 30px;
+    }
+    .skills{
+        width: 70%;
+        padding: 0px 0px 50px 50px;
+        
+    }
+
+
+}
